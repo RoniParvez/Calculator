@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator{
+    margin: 100px auto;
+    width: 400px;
+    background-color: #f0f8ff;
+    box-shadow: 5px 8px 8px rgba(47, 6, 226, 0.4);
+
+
+}
+
+#button{
+    background-color: rgb(90, 209, 209);
+    padding: 10px;
+    transition: 0.5s ease-in;
+    border-radius: 5px;
+}
+#search{
+
+    height: 90px;
+    width: 400px;
+}
+
+#button{
+    height: 86px;
+    width: 97px;
+}
+
+
+#button:hover{
+
+    background-color: rgb(135, 127, 247);
+}
+
+.yellow{
+    background-color: yellow !important;
+    transition: 0.5s ease-in;
+}
+.yellow:hover{
+    background-color: rgb(135, 127, 247)!important;
+}
